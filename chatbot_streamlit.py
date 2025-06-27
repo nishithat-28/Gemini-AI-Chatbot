@@ -5,7 +5,8 @@ import time
 
 st.set_page_config(
     page_title="Chatbot",
-    page_icon=":speech_balloon:"
+    page_icon=":speech_balloon:",
+    initial_sidebar_state="expanded"
 )
 
 st.markdown(
