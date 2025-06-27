@@ -69,7 +69,5 @@ try:
                 response = st.session_state.chat.send_message(qn)
             st.chat_message("ai").write_stream(stream_data(response.text))
             st.session_state.messages.append({"role":"ai", "content":response.text})
-        
-
 except Exception as e:
     st.error(f"❌ Failed to initialize Gemini model: {e}")
