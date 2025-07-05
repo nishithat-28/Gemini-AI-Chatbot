@@ -1,6 +1,7 @@
 # 🤖 Gemini AI Chatbot
 
-A conversational AI chatbot built using **Google Gemini API** and **Streamlit**, designed to provide interactive, intelligent responses to user inputs in real time.
+A conversational assistant powered by **Google Gemini API** and built with **Streamlit**.  
+🌐 Try the live version here: [https://my-chatbot-assistant.streamlit.app/](https://my-chatbot-assistant.streamlit.app/)
 
 
 ## Features
@@ -39,12 +40,16 @@ A conversational AI chatbot built using **Google Gemini API** and **Streamlit**,
    ```bash
    python -m streamlit run app.py
    ```
-   Once launched, visit http://localhost:8501 to chat with your AI assistant.
 
-## 🌐 Live Demo
-  Explore the chatbot live at:
+4. **Launch**
+   Open your browser and go to:
 
-  https://my-chatbot-assistant.streamlit.app/
+   ```
+   http://localhost:8501
+   ```
+
+
+
 
 
 
